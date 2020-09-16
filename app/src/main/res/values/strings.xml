@@ -1,0 +1,111 @@
+<resources>
+    <string name="app_name">BloodBank</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="navMenuHome">Home</string>
+    <string name="navMenuMaps">search in map</string>
+    <string name="navMenuprofile">Profile</string>
+    <string name="title_activity_home">homeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="google_maps_key">AIzaSyAal1lDx9-J83ER0CpWqgO-o4wm-6LB_yU</string>
+
+
+    <string name="title_activity_maps">Map</string>
+
+    <string name="title_activity_mapsmaapap">Map</string>
+    <string name="back">Back</string>
+    <string name="search">Search Filters</string>
+    <string name="blood_requests">Blood Requests</string>
+    <string name="blood_banks">Blood Banks</string>
+    <string name="hospitals">Hospitals</string>
+    <string name="blood_types">Blood Types</string>
+    <string name="blood_type">Blood Type</string>
+    <string name="needed_blood_type">Needed Blood Type</string>
+    <string name="blood_bank">BLOOD BANK</string>
+    <string name="enter_bank_name">Enter Bank Name</string>
+    <string name="enter_bank_address">EnterBank Address</string>
+    <string name="enter_donner_name">Enter Donor Name</string>
+    <string name="enter_donner_address">Enter Donor Address</string>
+    <string name="enter_hospital_name">Enter Hospital Name</string>
+    <string name="enter_hospital_address">Enter Hospital Address</string>
+    <string name="enter_patient_name">Enter Patient Name</string>
+    <string name="enter_patient_address">Enter Patient Address</string>
+    <string name="donations">Donations</string>
+    <string name="pending_requests">Pending Requests</string>
+    <string name="patients">Patient</string>
+    <string name="donners">Donors</string>
+    <string name="logout">Logout</string>
+    <string name="available_types">Available Types</string>
+    <string name="title_blood_bank_home">Blood Bank</string>
+    <string name="accept">Accept</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="join_bank">Join Bank</string>
+    <string name="give">Give</string>
+    <string name="post_request">Post Request</string>
+    <string name="donate">Donate</string>
+
+    <string-array name="bloodTypes_array">
+        <item>A+</item>
+        <item>A-</item>
+        <item>B+</item>
+        <item>B-</item>
+        <item>O+</item>
+        <item>O-</item>
+        <item>AB+</item>
+        <item>AB-</item>
+    </string-array>
+
+    <string-array name="selectImageFrom_array">
+        <item>camera</item>
+        <item>Gallery</item>
+    </string-array>
+
+    <string-array name="array_city">
+        <item>Cairo</item>
+        <item>Giza</item>
+        <item>Alex</item>
+        <item>Sharqiah</item>
+        <item>Menoufia</item>
+        <item>Gharbia</item>
+        <item>Aswan</item>
+        <item>Luxor</item>
+    </string-array>
+
+    <string-array name="areas_array">
+        <item>Nasr city</item>
+        <item>Maadi</item>
+        <item>Helioplis</item>
+        <item>6 October</item>
+        <item>Garden city</item>
+        <item>Zamalek</item>
+        <item>Abdeen</item>
+        <item>Shubra</item>
+        <item>Rod el frg</item>
+        <item>El slam</item>
+        <item>Elbsateen</item>
+        <item>Mokatm</item>
+        <item>Alsyda Zeinab</item>
+        <item>Shikh zayed</item>
+        <item>Imbaba</item>
+    </string-array>
+
+    <string-array name="array_hospital">
+        <item>dar el foad</item>
+        <item>el tgmo3</item>
+        <item>nasr city</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/action_available_types"
+        android:icon="@drawable/ic_available"
+        android:iconTint="@color/colorAccent"
+        android:title="@string/available_types" />
+
+    <item
+        android:id="@+id/action_pending_requests"
+        android:icon="@drawable/ic_pending"
+        android:iconTint="@color/colorAccent"
+        android:title="@string/pending_requests" />
+
+    <item
+        android:id="@+id/action_patients"
+        android:icon="@drawable/ic_request"
+        android:iconTint="@color/colorAccent"
+        android:title="@string/patients" />
+
+    <item
+        android:id="@+id/action_post_request"
+        android:icon="@drawable/banks"
+        android:iconTint="@color/colorAccent"
+        android:title="@string/post_request" />
+
+    <item
+        android:id="@+id/action_donners"
+        android:icon="@drawable/ic_blood"
+        android:iconTint="@color/colorAccent"
+        android:title="@string/donners" />
+
+    <item
+        android:id="@+id/action_add_hospital"
+        android:icon="@drawable/hospital"
+        android:iconTint="@color/colorAccent"
+        android:title="@string/hospitals" />
+
+    <item
+        android:id="@+id/action_logout"
+        android:icon="@drawable/ic_logout"
+        android:iconTint="@color/colorAccent"
+        android:title="@string/logout" />
+
+
+</menu>

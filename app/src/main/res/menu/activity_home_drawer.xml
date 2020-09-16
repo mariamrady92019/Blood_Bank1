@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Basic data">
+        <menu>
+            <item
+                android:id="@+id/profile"
+                android:icon="@drawable/profile"
+                android:title="Profile"
+                android:iconTint="@color/colorAccent"/>
+
+            <item
+                android:iconTint="@color/colorAccent"
+                android:id="@+id/banks"
+                android:icon="@drawable/hospital"
+                android:title="Banks" />
+            <item
+                android:iconTint="@color/colorAccent"
+                android:id="@+id/hospitals"
+                android:icon="@drawable/banks"
+                android:title="Hospitals" />
+            <item
+                android:iconTint="@color/colorAccent"
+                android:id="@+id/map"
+                android:icon="@drawable/maps"
+                android:title="Map" />
+        </menu>
+    </item>
+
+    <item android:title="transaction">
+        <menu>
+            <item
+                android:iconTint="@color/colorAccent"
+                android:id="@+id/addBank"
+                android:icon="@drawable/addbank"
+                android:title="Add New Bank" />
+
+            <item
+                android:iconTint="@color/colorAccent"
+                android:id="@+id/addHospital"
+                android:icon="@drawable/addbank"
+                android:title="Add New Hospital" />
+
+            <item
+                android:iconTint="@color/colorAccent"
+                android:id="@+id/reports"
+                android:icon="@drawable/reports"
+                android:title="Reports" />
+
+            <item
+                android:iconTint="@color/colorAccent"
+                android:id="@+id/logout"
+                android:icon="@drawable/ic_logout"
+                android:title="LogOut" />
+
+        </menu>
+    </item>
+
+</menu>

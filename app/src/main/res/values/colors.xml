@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#f32732</color>
+    <color name="colorPrimaryDark">#4f0506</color>
+    <color name="colorAccent">#fed2a5</color>
+
+    <color name="gray">#B8C3D1</color>
+
+    <color name="text">#FBFDFE</color>
+    <color name="editTextbackGround">#D5D6D6</color>
+    <color name="backGround">#0CCECE</color>
+    <color name="posttext">#E60A0A0A</color>
+    <color name="edittbackground">#5A5C5E</color>
+
+
+</resources>

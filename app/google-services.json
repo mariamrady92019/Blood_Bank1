@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "596463313852",
+    "firebase_url": "https://trailloginandsign.firebaseio.com",
+    "project_id": "trailloginandsign",
+    "storage_bucket": "trailloginandsign.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:596463313852:android:5afc75c78932e66ed401b9",
+        "android_client_info": {
+          "package_name": "com.example.bloodbank"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "596463313852-edk9pql3lbft2tlglkqevflc5gitp1ob.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDPjQro64QVzA7oXQRcpEhMdr4EwJXZJi0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "596463313852-edk9pql3lbft2tlglkqevflc5gitp1ob.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+     android:animationCache="true"
+    android:padding="10dp"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/rl_tool_bar"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/colorAccent">
+
+            <TextView
+                android:id="@+id/tv_back"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="30dp"
+                android:drawableStart="@drawable/ic_arrow_back"
+                android:drawableTint="@color/colorPrimaryDark"
+                android:gravity="center"
+                android:text="@string/back"
+                android:textColor="@color/colorPrimary"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="Edit Post"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+        <EditText
+            android:id="@+id/postHeaderName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:hint="your name here"
+            android:padding="10dp"
+            android:textSize="22sp" />
+
+        <EditText
+            android:id="@+id/postHeaderDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="3"
+            android:gravity="top"
+            android:hint="your description here here"
+            android:maxLines="10"
+            android:padding="10dp"
+            android:textSize="22sp" />
+
+        <EditText
+            android:id="@+id/postHeaderAdress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="3"
+            android:gravity="top"
+            android:hint="your adress here"
+            android:maxLines="10"
+            android:padding="10dp"
+            android:textSize="22sp" />
+
+
+        <Spinner
+            android:id="@+id/bloodTypes_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_margin="20dp"
+            android:layout_weight="1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <Button
+            android:id="@+id/UpdatePost"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp"
+            android:background="@drawable/buttons_background"
+            android:text="Update Post"
+            android:textColor="@color/text"
+            android:textSize="22sp" />
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

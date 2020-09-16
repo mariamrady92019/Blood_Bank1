@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="5dp">
+
+    <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:padding="8dp"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="7">
+
+                <com.mikhaellopez.circularimageview.CircularImageView
+                    android:id="@+id/userImage"
+                    android:layout_width="0dp"
+                    android:layout_height="120dp"
+                    android:layout_gravity="center"
+                    android:layout_marginEnd="5dp"
+                    android:layout_weight="2.25"
+                    android:src="@drawable/profile"
+                    app:civ_border_color="#3f51b5"
+                    app:civ_border_width="1dp"
+                    app:civ_shadow="true"
+                    app:civ_shadow_color="#3f51b5"
+                    app:civ_shadow_radius="1dp" />
+
+                <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:id="@+id/post_userName"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/textback"
+                        android:gravity="start"
+                        android:padding="10dp"
+                        android:text="mariamRadyMohammed"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/post_bloodType"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/textback"
+                        android:gravity="start"
+                        android:padding="10dp"
+                        android:text=" bloodType"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/post_adress"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/textback"
+                        android:gravity="start"
+                        android:padding="10dp"
+                        android:text="my adress is :"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/post_timeNeeded"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/textback"
+                        android:gravity="start"
+                        android:padding="10dp"
+                        android:text="need this through : "
+                        android:textSize="20sp" />
+
+
+                </LinearLayout>
+
+
+                <ImageView
+                    android:id="@+id/optionMenue"
+                    android:layout_width="0dp"
+                    android:layout_height="25dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="0.5"
+                    android:src="@drawable/postsetting" />
+
+            </LinearLayout>
+
+
+            <Button
+                android:id="@+id/Donnate_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="60dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/buttons_background"
+                android:text="Donnate"
+                android:textColor="@color/text"
+                android:textSize="22sp"
+                app:layout_constraintTop_toBottomOf="@id/card"
+
+
+                />
+
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
