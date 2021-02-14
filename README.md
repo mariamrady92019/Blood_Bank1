@@ -1,5 +1,7 @@
 # README #
 ### What is this app for? ###
+ Native mobile App for Martian tech company.
+### What is this app for? ###
 _ this app is anative app that allow user to create acount , post request that he need ablood , donate to near hospital 
 _ main bank to recive requests from hospitals and donnate 
 - profile for each user 
